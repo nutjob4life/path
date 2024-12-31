@@ -1,0 +1,10 @@
+<?xml version='1.0'?>
+<project name='foo' default='foo' basedir='.'>
+    <target name='foo'>
+        <property environment='env'/>
+        <echo message='🦠 PATH env var ='/>
+        <echo>
+            ${env.PATH}
+        </echo>
+    </target>
+</project>
